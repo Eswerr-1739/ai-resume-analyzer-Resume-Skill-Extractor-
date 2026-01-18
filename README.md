@@ -71,13 +71,13 @@ streamlit run app.py
 
 3. View results:
 
--Resume-JD similarity score
--Section scores (Experience, Education, Skills)
--Extracted skills
--Reports will be saved automatically in the output/ folder as:
--skills_report.json
--skills_report.csv
--summary_report.csv
+- Resume-JD similarity score
+- Section scores (Experience, Education, Skills)
+- Extracted skills
+- Reports will be saved automatically in the output/ folder as:
+- skills_report.json
+- skills_report.csv
+- summary_report.csv
 
 ## Folder Structure
 
@@ -94,9 +94,9 @@ AI-Resume-Analyzer/
 1. Skill extraction may currently capture some unwanted text like emails, names, or extra words.
 2. Section scoring is basic and can be improved by analyzing actual content instead of just headings.
 3. Future improvements could include:
-      -RAG-based interactive Q&A
-      -Semantic similarity using embeddings
-      -Advanced section parsing
+      - RAG-based interactive Q&A
+      - Semantic similarity using embeddings
+      - Advanced section parsing
 
 ## License
 This project is open-source and free to use under the MIT License
